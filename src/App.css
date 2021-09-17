@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.item, .item-last{
+  color: #19345e;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+.item-last{
+  padding-right : 98px;
+}
+.act{
+  color:#F47522;
+}
+
+.backg{
+  background-image: url("./components/assets/img/bg-img.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10%;
+  left:0px;
+  width: 100%;
+  height: 100%;
+}
+
+.img-rounded{
+  margin-top: 40%;
+  border-radius: 177.5px;
+  height: 355px;
+}
+
+.hi-text{
+  font-size: 25px;
+  font-weight:500;
+  margin-top: 27%;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 85px;
+  margin-bottom: 0%;
+}
+
+.text{
+  color: #19345e !important;
+}
+
+.desc{
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.btn-sub{
+  background-color:#F47522;  
+  color:white;
+  border-radius: 20px;
+  width: 150px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
+}
+#content
+{
+  height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.backg2{
+  background-image: url("./components/assets/img/logo_contact.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left:0px;
+  width: 65vh;
+  height: 100%;
+  padding: 0 !important;
+}
+
+.opacity{
+  opacity: 0.62;
+}
+
+.form1{
+  padding-top: 6%;
+  padding-left: 4%;
+}
+
+.contact{
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.form2{
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.pad{
+  padding-bottom:5px;
+  padding-top: 10px;
+}
+
+.padButton{
+  margin-top: 40px;
+  width: 96px !important;
+}
+
+.logo{
+  position: absolute;
+  margin-left: -70%;
+  margin-top:55%;
+  height: 142px;
+  width: 275px;
+  opacity: 0.6;
+}
+
+.biru{
+  position: relative;
+}
+
